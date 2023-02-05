@@ -130,7 +130,7 @@ class ProfileVC: UIViewController , UITextFieldDelegate {
             inputStack.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30),
             inputStack.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
             inputStack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
-            foodImage.heightAnchor.constraint(equalToConstant: 100),
+            foodImage.heightAnchor.constraint(equalToConstant: 150),
             firstnameInput.heightAnchor.constraint(equalToConstant: 60),
             emailInput.heightAnchor.constraint(equalToConstant: 60),
             phoneInput.heightAnchor.constraint(equalToConstant: 60),
@@ -138,7 +138,7 @@ class ProfileVC: UIViewController , UITextFieldDelegate {
             logoutBtn.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
             logoutBtn.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
             logoutBtn.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
-            logoutBtn.heightAnchor.constraint(equalToConstant: 56),
+            logoutBtn.heightAnchor.constraint(equalToConstant: 60),
             
         ])
     }

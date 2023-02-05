@@ -59,7 +59,7 @@ class LoginVC: UIViewController {
     let signInButton : UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Sign In", for: .normal)
+        button.setTitle("Login", for: .normal)
         button.layer.cornerRadius = 8
         button.backgroundColor = .gray
         button.addTarget(self, action: #selector(loginClick), for: .touchUpInside)
